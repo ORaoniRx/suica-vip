@@ -1,0 +1,25 @@
+.conteiner-pai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+} 
+
+.button{
+    margin-bottom: 10px;
+    
+}
+.save{
+    margin-right: 7%;
+    margin-top: 15px;
+}
+.Login{
+    margin-top: 10px;
+}
+
+.criar{
+    margin-left: 220%;
+    margin-bottom: 80px;
+}
