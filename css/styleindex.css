@@ -1,0 +1,48 @@
+/* estrutura site-container */
+
+.site-container {
+    display: flex;
+}
+.menu-principal li{
+    display: inline;
+}
+
+/* estrutura container-principal */
+
+.container-principal {
+    flex-direction: column;
+}
+
+.caixa-pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caixa-pesquisa input {
+    width:50%;
+    height: 22px;
+   
+}
+
+.imagens-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 40px;
+   
+}
+
+.imagen-lugares{
+    border: 2px solid #000;
+    border-radius:4px;
+    width: 200px;
+    height:100px;
+}
+
+.lupa{
+    width: 20px;
+    position:fixed;
+    right: 26%;
+    top: 12%;
+}
