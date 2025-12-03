@@ -1,6 +1,6 @@
 # titulo: suica-vip
 # equipe:raoni ramos,gustavo hentrique,daniele de cassia,izadora cáceres
-as tecnologias usadas foram css e html
+as tecnologias usadas foram css, html e javascript
 problema:o problema e a falta de sites de turrismo intuitivos 
 resolução:a criação do site suiçavip.com foi uma ideia para viagens mais faceis para a suiça e um site mais intuitivo
 publico alvo:pessoas que querem turistar a suiça
