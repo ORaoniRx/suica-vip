@@ -1,40 +1,82 @@
+main {
+    display: flex;
+    justify-content: center;
+}
 
+/* Container-nav */
 
-.conteiner-tio{
+.container-nav{
+    background-image: url(../img/Points/Background.png);
+    background-position: 40%;
     display: flex;
     justify-content: center; 
     align-items: center; 
-
+    height: 125px;
 }
 
-.conteiner-tia{
+/* container-nome */
 
+.container-nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.pontos-nome{
+    list-style-type: none;
+}
+
+.nome-des li{
+    
+}
+
+/* Container-main */
+
+.container-main{
+    margin-top: 25px;
+    background-color: #C4CFCB;
+    width: 600px;
+    height: 400px;
     display: flex;
     justify-content: center; 
-    align-items: center; 
+    align-items:center;
+    position: relative;
 }
 
-.sub{
-  
-    
-    
-}
-.des{
-    
-    
-   
-    
+.pontos-desc{
+    display: column;
+    justify-content: center;
+    margin: 0;
+    margin-right: 200px;
 }
 
+.pontos-desc2{
+    display: column;
+    justify-content: center;
+    margin: 0;
+    margin-left: 200px;
+}
 
-.pontos{
+.pontos-desc li{
+    color: black;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.pontos-desc2 li{
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+/* Container-pontos */
+
+.container-pontos{
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    
-   
 }
-.num{
-    margin-top: 10%;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
