@@ -1,0 +1,40 @@
+
+
+.conteiner-tio{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.conteiner-tia{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.sub{
+  
+    
+    
+}
+.des{
+    
+    
+   
+    
+}
+
+
+.pontos{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+   
+}
+.num{
+    margin-top: 10%;
+}
+
