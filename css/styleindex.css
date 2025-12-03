@@ -1,11 +1,56 @@
+body {
+    background-image: url(../img/Index/Background.jpg);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+
+}
+
 /* estrutura site-container */
 
 .site-container {
     display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100px;
+    width: auto;
+    background-color: rgb(32,103,134);
+
 }
 .menu-principal li{
     display: inline;
+    justify-content: space-around;  
 }
+
+.text-index{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    margin-right: 70px;
+    margin-left: 100px;
+    padding: 20px 20px 20px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.text-index:hover{
+    background-color: rgb(130, 182, 245);
+}
+
+.perfil {
+    margin-top: 0;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+
 
 /* estrutura container-principal */
 
@@ -16,33 +61,53 @@
 .caixa-pesquisa{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 40px
+
 }
 .caixa-pesquisa input {
-    width:50%;
-    height: 22px;
-   
+    width:60%;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
 }
+
+/* estrutura das imagens */
 
 .imagens-principal {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    margin-top: 40px;
+    margin-top: 80px;
    
 }
 
-.imagen-lugares{
-    border: 2px solid #000;
-    border-radius:4px;
-    width: 200px;
-    height:100px;
+.imagens-lugares-container{
+    border: 5px solid #000;
+    border-radius: 10px;
+    width: auto;
+    height: 477px;
+}
+
+.lugares-imagem {
+    width: 500px;
+    height: 400px;
+}
+
+.nomes-lugares{
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(130, 182, 245);
+    padding: 20px
 }
 
 .lupa{
-    width: 20px;
-    position:fixed;
-    right: 26%;
-    top: 12%;
+    position: relative;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
