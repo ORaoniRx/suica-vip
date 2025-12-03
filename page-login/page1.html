@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suiçavip-login</title>
 
+    <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="../css/stylelogin.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,18 +20,20 @@
 
             <div class="button">
                 <li>E-mail</li>
-                <input type="text" id="gmail">
+                <input id="gmail" type="text" placeholder="Digite seu Gmail">
             </div>
 
             <div class="button">
                 <li>Senha</li>
-                <input type="text" id="senha">
+                <input id="senha" type="password" placeholder="Digite sua senha">
             </div>
 
             <div class="links">
-                <input type="checkbox" class="salvar"></input>
-                <li>Salvar Senha</li>
-
+                <label>
+                <input type="checkbox" class="salvar" id="checkLogin" onchange="acaoCheckbox()">
+                salvar senha
+                </label>
+                <p id="resultado"></p>
                 <a class="criar" href="../index.html">Criar conta</a>
             </div>
 
@@ -40,5 +43,6 @@
         </div>
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
