@@ -3,6 +3,18 @@ main {
     justify-content: center;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    text-shadow: 2px 3px 3px black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 /* Container-nav */
 
 .container-nav{
@@ -12,23 +24,54 @@ main {
     justify-content: center; 
     align-items: center; 
     height: 125px;
+    position: relative;
 }
 
-/* container-nome */
-
-.container-nome{
+.container-estrela{
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 20px;
     position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
 
-.pontos-nome{
-    list-style-type: none;
+.estrela{
+    width: 40px;
+    height: 40px;
 }
 
-.nome-des li{
-    
+.container-estrela2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 60px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.estrela2{
+    width: 20px;
+    height: 20px;
+}
+
+.container-estrela3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 60px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.estrela3{
+    width: 20px;
+    height: 20px;
 }
 
 /* Container-main */
@@ -44,18 +87,50 @@ main {
     position: relative;
 }
 
+.nome-dess{
+    width: 600px;
+    height: 75px;
+    flex-direction: column;
+    margin-bottom: 325px;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.nome-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    list-style-type: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 44px;
+}
+
+.container-pontos-desconto{
+    display: flex;
+    margin-bottom: 140px;
+    width: 600px;
+    height: 110px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+
 .pontos-desc{
-    display: column;
+    flex-direction: column;
     justify-content: center;
     margin: 0;
-    margin-right: 200px;
+    width: 75px;
+    margin-left: 30px;
 }
 
 .pontos-desc2{
-    display: column;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     margin: 0;
-    margin-left: 200px;
+    width: 75px;
+    margin-left: 400px;
 }
 
 .pontos-desc li{
@@ -67,6 +142,8 @@ main {
 }
 
 .pontos-desc2 li{
+    color: black;
+    font-weight: 500;
     font-family: "Ubuntu", sans-serif;
     margin-top: 20px;
     list-style-type: none;
@@ -76,6 +153,61 @@ main {
 
 .container-pontos{
     display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.pontos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pontos li{
+    list-style-type: none;
+}
+
+.text-sla{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.especifico{
+    width: 600px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+}
+
+.total-especifico{
+    margin-left: 30px;
+    list-style-type: none;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+.container-bolinha{
+    display: flex;
+    width: 600px;
+    height: 0px;
+    margin-top: 155px;
+    margin-left: 65px;
+    position: absolute;
+
+}
+
+.bolinha-position{
+    width: 40px;
+    height: 40px;
+}
+
+.bolinha-azul{
+    background-color: #206786;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
