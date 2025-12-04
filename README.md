@@ -1,9 +1,10 @@
-# titulo: suica-vip
-# equipe:raoni ramos,gustavo hentrique,daniele de cassia,izadora cáceres
-as tecnologias usadas foram css, html e javascript
-problema:o problema e a falta de sites de turrismo intuitivos 
-resolução:a criação do site suiçavip.com foi uma ideia para viagens mais faceis para a suiça e um site mais intuitivo
-publico alvo:pessoas que querem turistar a suiça
-nos fizemos um site sobre turrismo na suiça aonde vendemos pasagens para paseios turristicos e hospedangens da suiça,tambem temos fotos dos locais mais conhecidos da suiça para decidir aonde ir
-por enquato nao foi utilizado nenhum tipo de deploy do nosso codigo no github porem fomos vendo o seu preseso de organização do css pelo edge
+# Suiçavip
+# Equipe: Raoni Ramos, Gustavo Henrique, Daniele de Cassia, Izadora Cáceres.
+# Tecnologias usadas: Css, Html e Javascript.
+Problema: Falta de sites de turismo bons para se organizar para ir a suíça.  
+Resolução: A criação do site (suiçavip) foi uma ideia para facilitar o turismo na suíça, fazendo um site intuitivo.  
+Publico alvo: Turismo a suíça. 
+  
+Fizemos um site sobre turismo na suíça onde vendemos passagens para passeios turísticos e hospedangens da suíça, temos támbem fotos dos locais mais conhecidos da suíça para se organizar e verificar onde vai comprar sua hospeagem  
 
+Por enquato não foi utilizado nenhum tipo de deploy final em nosso código, porém vamos tentar usar o GitHub para testar o Front-End.
