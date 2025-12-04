@@ -9,4 +9,6 @@ Fizemos um site sobre turismo na suíça onde vendemos passagens para passeios t
 
 Por enquato não foi utilizado nenhum tipo de deploy final em nosso código, porém vamos tentar usar o GitHub para testar o Front-End.  
 
+https://oraonirx.github.io/suica-vip/index.html
+
 (Projeto ficou simples pois é nosso primeiro projeto real, mas pretendemos melhorar).
