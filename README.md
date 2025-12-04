@@ -7,4 +7,6 @@ Publico alvo: Turismo a suíça.
   
 Fizemos um site sobre turismo na suíça onde vendemos passagens para passeios turísticos e hospedangens da suíça, temos támbem fotos dos locais mais conhecidos da suíça para se organizar e verificar onde vai comprar sua hospeagem  
 
-Por enquato não foi utilizado nenhum tipo de deploy final em nosso código, porém vamos tentar usar o GitHub para testar o Front-End.
+Por enquato não foi utilizado nenhum tipo de deploy final em nosso código, porém vamos tentar usar o GitHub para testar o Front-End.  
+
+(Projeto ficou simples pois é nosso primeiro projeto real, mas pretendemos melhorar).
