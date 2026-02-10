@@ -16,4 +16,4 @@ https://oraonirx.github.io/suica-vip/index.html
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Atividade prática de branch.
-# Grupo: Raoni, CLara e Gustavo.
+# Grupo: Raoni, Clara e Gustavo.
