@@ -12,3 +12,8 @@ Por enquato não foi utilizado nenhum tipo de deploy final em nosso código, por
 https://oraonirx.github.io/suica-vip/index.html
 
 (Projeto ficou simples pois é nosso primeiro projeto real, mas pretendemos melhorar).
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Atividade prática de branch.
+# Grupo: Raoni, CLara e Gustavo.
